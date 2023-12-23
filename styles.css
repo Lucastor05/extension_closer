@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    border: #333 1px solid;
+    /* Background beige */
+    background-color: #d5d5d5;
+  }
+  
+  .popup-container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

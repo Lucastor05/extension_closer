@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Closer",
+    "version": "1.0",
+    "description": "Ferme automatiquement les onglets ouverts par un site spécifique.",
+    "permissions": [
+        "webNavigation",
+        "tabs",
+        "storage"
+    ],      
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "48": "icon.png"
+    },
+    "action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    }
+  }
+  
